@@ -1,0 +1,23 @@
+.box {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editBox {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  resize: both;
+  overflow: auto;
+}
+
+.button {
+  position: absolute;
+}
